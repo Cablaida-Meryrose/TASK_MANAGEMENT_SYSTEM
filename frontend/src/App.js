@@ -4,7 +4,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
-  const API_URL = "http://127.0.0.1:8000/api/tasks/";
+  const API_URL = "https://itsmeoww.pythonanywhere.com/api/tasks/";
 
   // Fetch Tasks
   const fetchTasks = async () => {
